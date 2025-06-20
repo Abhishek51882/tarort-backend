@@ -31,7 +31,7 @@ exports.createBooking = async (req, res) => {
                 await transporter.sendMail({
                     from: `"Divine Sspirit Tarot Team" <${process.env.EMAIL_USER}>`,
                     to: email,
-                    subject: `🌸 Your Booking is Confirmed - ${serviceName}`,
+                    subject: `🌸 Thankyou for reaching-Your Booking will be confirmed within 24hrs after screenshot of payment - ${serviceName}`,
                     html: `
                         <div style="font-family: 'Segoe UI', sans-serif; background: #fff8f0; padding: 30px; color: #333;">
                             <h1 style="color: #d63384;">🕉️ Thank You, ${name}!</h1>
@@ -61,8 +61,9 @@ exports.createBooking = async (req, res) => {
                                 <p style="font-size: 18px; font-weight: bold; color: #20c997;">✨ Awaken Your Energy. Embrace the Divine. ✨</p>
                             </div>
 
-                            <p style="color: #999; margin-top: 40px;">With gratitude,<br><strong>Divine Healing Team</strong></p>
-                        </div>
+                            <p style="color: #999; margin-top: 40px;">With gratitude,<br><strong>Divine Sspirit Tarot Team</strong></p>
+                            <p style="font-size: 16px; font-weight: bold; color: #6f42c1; text-align: center;">Sheenam Goel</p>
+                            </div>
                     `
                 });
 
