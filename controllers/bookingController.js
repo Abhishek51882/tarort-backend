@@ -62,7 +62,7 @@ exports.createBooking = async (req, res) => {
                             </div>
 
                             <p style="color: #999; margin-top: 40px;">With gratitude,<br><strong>Divine Sspirit Tarot Team</strong></p>
-                            <p style="font-size: 16px; font-weight: bold; color: #6f42c1; text-align: center;">Sheenam Goel</p>
+                            <p style="font-size: 16px; font-weight: bold; color: #6f42c1;">Sheenam Goel</p>
                             </div>
                     `
                 });
